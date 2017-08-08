@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0"/>
+    <title>大宗交易.首页</title>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+    
+    <div class="weixin">
+        <header class="header">
+            <a href="#"><div class="icon_back"></div><span>订阅号</span></a>
+            <p>大宗交易</p>
+            <a href="#" class="icon_menu"></a>
+        </header>
+        <section>
+            <ul class="cang" id="cang" style="display: none">
+                <li><a href="./club.html">项目名称:  ~~~</a></li>
+                <li>项目资料: ~~~</li>
+                <li>投资说明: ~~~</li>
+                <li>附件: ~~~</li>
+            </ul>
+        </section>
+        <main>
+            <!--<div>-->
+                <div><a href="./club.html">股权:  ~~~</a></div>
+                <div>土地: ~~~</div>
+                <div>不良资产: ~~~</div>
+                <div>房产: ~~~</div>
+            <!--</div>-->
+            
+        </main>
+        <footer>
+            <ul>
+                <li class="one"></li>
+                <li class="two" id="two">
+                    <a href="#">
+                        <div class="imge"></div>
+                       <span>项目信息</span>
+                      
+                    </a>
+                </li>
+                <li class="three"><a href="./club.html">俱乐部</a></li>
+                <li class="fure"><a href="./lianxi.html">联系我们</a></li>
+            </ul>
+        </footer>
+    </div>
+
+    <script>
+        //点击two，让section显示
+            var two = document.getElementById("two");
+            var cang = document.getElementById("cang");
+            two.onclick = function(){
+                // alert("ssss")
+                if(cang.style.display == "none"){
+                    cang.style.display = "block";
+                }else{
+                    cang.style.display = "none";
+                }
+            }
+        
+    </script>
+</body>
+</html>
+
+
+
+ 
